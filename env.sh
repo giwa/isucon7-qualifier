@@ -1,0 +1,3 @@
+export ISUBATA_DB_HOST=localhost
+export ISUBATA_DB_USER=isucon
+export ISUBATA_DB_PASSWORD=isucon
