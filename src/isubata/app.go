@@ -38,14 +38,6 @@ type Renderer struct {
 	templates *template.Template
 }
 
-type Message struct {
-	ID        int64     `db:"id"`
-	ChannelID int64     `db:"channel_id"`
-	UserID    int64     `db:"user_id"`
-	Content   string    `db:"content"`
-	CreatedAt time.Time `db:"created_at"`
-}
-
 type MessageWithUser struct {
 	ID              int64     `db:"id"`
 	Content         string    `db:"content"`
